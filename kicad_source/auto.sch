@@ -280,13 +280,13 @@ Connection ~ 7900 4150
 Wire Wire Line
 	7950 4350 8350 4350
 Connection ~ 7950 4350
-Text GLabel 8350 3950 2    50   Output ~ 0
+Text GLabel 10450 3950 2    50   Output ~ 0
 EN0
-Text GLabel 8350 4150 2    50   Output ~ 0
+Text GLabel 10450 4150 2    50   Output ~ 0
 EN1
-Text GLabel 8350 4350 2    50   Output ~ 0
+Text GLabel 10450 4350 2    50   Output ~ 0
 EN2
-Text GLabel 8350 4550 2    50   Output ~ 0
+Text GLabel 10450 4550 2    50   Output ~ 0
 EN3
 Wire Wire Line
 	2550 3900 2750 3900
@@ -347,8 +347,6 @@ Wire Wire Line
 Wire Wire Line
 	6100 3350 6100 3900
 Connection ~ 6100 3900
-Wire Wire Line
-	7650 4650 7900 4650
 Wire Wire Line
 	4550 4600 4750 4600
 Text Label 7750 4650 0    50   ~ 0
@@ -466,9 +464,6 @@ Wire Wire Line
 	7700 3700 7700 3850
 Wire Wire Line
 	7700 3850 7650 3850
-NoConn ~ 7650 4050
-NoConn ~ 7650 4250
-NoConn ~ 7650 4450
 $Comp
 L power-supply:+3V3 #PWR?
 U 1 1 5EF87C74
@@ -539,191 +534,198 @@ Wire Wire Line
 Connection ~ 4100 2250
 Wire Wire Line
 	4100 2250 6400 2250
-$Comp
-L IC_logic:74xx00 U?
-U 1 1 5ED7F45F
-P 8600 6200
-F 0 "U?" H 8600 7365 50  0000 C CNN
-F 1 "74xx00" H 8600 7274 50  0000 C CNN
-F 2 "" H 8600 6200 50  0001 C CNN
-F 3 "" H 8600 6200 50  0001 C CNN
-	1    8600 6200
-	1    0    0    -1  
-$EndComp
+Text Label 8200 3950 0    50   ~ 0
+E0
+Text Label 8200 4150 0    50   ~ 0
+E1
+Text Label 8200 4350 0    50   ~ 0
+E2
+Text Label 8200 4550 0    50   ~ 0
+E3
 Wire Wire Line
-	9700 5450 9300 5450
+	7650 4050 8350 4050
 Wire Wire Line
-	9300 5450 9300 5400
+	7650 4250 8350 4250
 Wire Wire Line
-	9300 5400 8900 5400
+	7650 4450 8350 4450
+Text Label 8200 4050 0    50   ~ 0
+E0#
+Text Label 8200 4250 0    50   ~ 0
+E1#
+Text Label 8200 4450 0    50   ~ 0
+E2#
 Wire Wire Line
-	8900 5600 9300 5600
-Wire Wire Line
-	9300 5600 9300 5650
-Wire Wire Line
-	9300 5650 9700 5650
-Wire Wire Line
-	8900 5800 9300 5800
-Wire Wire Line
-	9300 5800 9300 5850
-Wire Wire Line
-	9300 5850 9700 5850
-Wire Wire Line
-	8900 6000 9300 6000
-Wire Wire Line
-	9300 6000 9300 6050
-Wire Wire Line
-	9300 6050 9700 6050
-Wire Wire Line
-	8300 5400 7950 5400
-Wire Wire Line
-	8300 5600 7950 5600
-Wire Wire Line
-	8300 5800 7950 5800
-Wire Wire Line
-	8300 6000 7950 6000
-Text GLabel 7950 5400 0    50   Input ~ 0
-EN0
-Text GLabel 7950 5600 0    50   Input ~ 0
-EN1
-Text GLabel 7950 5800 0    50   Input ~ 0
-EN2
-Text GLabel 7950 6000 0    50   Input ~ 0
-EN3
-Text GLabel 7950 5250 0    50   Input ~ 0
-AUTO
-Wire Wire Line
-	7950 5250 8100 5250
-Wire Wire Line
-	8100 5250 8100 5500
-Wire Wire Line
-	8100 6100 8300 6100
-Wire Wire Line
-	8300 5900 8100 5900
-Connection ~ 8100 5900
-Wire Wire Line
-	8100 5900 8100 6100
-Wire Wire Line
-	8300 5700 8100 5700
-Connection ~ 8100 5700
-Wire Wire Line
-	8100 5700 8100 5900
-Wire Wire Line
-	8300 5500 8100 5500
-Connection ~ 8100 5500
-Wire Wire Line
-	8100 5500 8100 5700
-Wire Wire Line
-	9700 5550 9500 5550
-Wire Wire Line
-	9500 5550 9500 5000
-Wire Wire Line
-	9700 5750 9400 5750
-Wire Wire Line
-	9400 5750 9400 5000
-Wire Wire Line
-	9250 5950 9250 5000
-Wire Wire Line
-	9250 5950 9700 5950
-Wire Wire Line
-	9700 6150 9150 6150
-Wire Wire Line
-	9150 6150 9150 5000
-Text GLabel 9500 5000 1    50   Input ~ 0
-ENABLE0
-Text GLabel 9400 5000 1    50   Input ~ 0
-ENABLE1
-Text GLabel 9250 5000 1    50   Input ~ 0
-ENABLE2
-Text GLabel 9150 5000 1    50   Input ~ 0
-ENABLE3
-Wire Wire Line
-	10300 5450 10450 5450
-Wire Wire Line
-	10300 5650 10450 5650
-Wire Wire Line
-	10300 5850 10450 5850
-Wire Wire Line
-	10300 6050 10450 6050
-Text GLabel 10450 5450 2    50   Output ~ 0
-CNT0
-Text GLabel 10450 5650 2    50   Output ~ 0
-CNT1
-Text GLabel 10450 5850 2    50   Output ~ 0
-CNT2
-Text GLabel 10450 6050 2    50   Output ~ 0
-CNT3
+	7650 4650 8350 4650
+Text Label 8200 4650 0    50   ~ 0
+E3#
 $Comp
 L IC_logic:74xx32 U?
-U 1 1 5ED7CBEA
-P 9950 6350
-F 0 "U?" H 10000 7615 50  0000 C CNN
-F 1 "74xx08" H 10000 7524 50  0000 C CNN
-F 2 "" H 9950 6350 50  0001 C CNN
-F 3 "" H 9950 6350 50  0001 C CNN
-	1    9950 6350
+U 1 1 5EF4E33D
+P 9900 4850
+F 0 "U?" H 9950 6115 50  0000 C CNN
+F 1 "74xx32" H 9950 6024 50  0000 C CNN
+F 2 "" H 9900 4850 50  0001 C CNN
+F 3 "" H 9900 4850 50  0001 C CNN
+	1    9900 4850
 	1    0    0    -1  
 $EndComp
-Text Notes 8400 6400 0    50   ~ 0
-Connect to manual circuit
+Wire Wire Line
+	10250 3950 10450 3950
+Wire Wire Line
+	10250 4150 10450 4150
+Wire Wire Line
+	10250 4350 10450 4350
+Wire Wire Line
+	10250 4550 10450 4550
+Wire Wire Line
+	9650 3950 9350 3950
+Wire Wire Line
+	9650 4050 9300 4050
+Wire Wire Line
+	9650 4150 9350 4150
+Wire Wire Line
+	9650 4250 9300 4250
+Wire Wire Line
+	9650 4350 9350 4350
+Wire Wire Line
+	9650 4450 9300 4450
+Wire Wire Line
+	9650 4550 9350 4550
+Wire Wire Line
+	9650 4650 9300 4650
+Text GLabel 9300 4050 0    50   Input ~ 0
+T0
+Text GLabel 9300 4250 0    50   Input ~ 0
+T1
+Text GLabel 9300 4450 0    50   Input ~ 0
+T2
+Text GLabel 9300 4650 0    50   Input ~ 0
+T3
+Text Label 9350 3950 0    50   ~ 0
+E0
+Text Label 9350 4150 0    50   ~ 0
+E1
+Text Label 9350 4350 0    50   ~ 0
+E2
+Text Label 9350 4550 0    50   ~ 0
+E3
 $Comp
-L power-supply:+3V3 #PWR?
-U 1 1 5ED700EE
-P 9000 5200
-F 0 "#PWR?" H 9000 5050 50  0001 C CNN
-F 1 "+3V3" H 9015 5373 50  0000 C CNN
-F 2 "" H 9000 5200 50  0000 C CNN
-F 3 "" H 9000 5200 50  0000 C CNN
-	1    9000 5200
+L IC_logic:74xx08 U?
+U 1 1 5EF82717
+P 9750 5700
+F 0 "U?" H 9950 6387 60  0000 C CNN
+F 1 "74xx08" H 9950 6281 60  0000 C CNN
+F 2 "SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 10050 5550 60  0001 C CNN
+F 3 "" H 9750 5700 60  0000 C CNN
+	1    9750 5700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10250 5400 10500 5400
+Wire Wire Line
+	10250 5600 10500 5600
+Wire Wire Line
+	10250 5800 10500 5800
+Wire Wire Line
+	10250 6000 10500 6000
+Text GLabel 10500 5400 2    50   Output ~ 0
+CNT0
+Text GLabel 10500 5600 2    50   Output ~ 0
+CNT1
+Text GLabel 10500 5800 2    50   Output ~ 0
+CNT2
+Text GLabel 10500 6000 2    50   Output ~ 0
+CNT3
+Wire Wire Line
+	9650 5400 9300 5400
+Wire Wire Line
+	9650 5600 9300 5600
+Wire Wire Line
+	9650 5800 9300 5800
+Wire Wire Line
+	9650 6000 9300 6000
+Text GLabel 9300 5400 0    50   Input ~ 0
+ENABLE0
+Text GLabel 9300 5600 0    50   Input ~ 0
+ENABLE1
+Text GLabel 9300 5800 0    50   Input ~ 0
+ENABLE2
+Text GLabel 9300 6000 0    50   Input ~ 0
+ENABLE3
+Wire Wire Line
+	9650 5500 9400 5500
+Wire Wire Line
+	9650 5700 9400 5700
+Wire Wire Line
+	9650 5900 9400 5900
+Wire Wire Line
+	9650 6100 9400 6100
+Text Label 9400 5500 0    50   ~ 0
+E0#
+Text Label 9400 5700 0    50   ~ 0
+E1#
+Text Label 9400 5900 0    50   ~ 0
+E2#
+Text Label 9400 6100 0    50   ~ 0
+E3#
+Wire Wire Line
+	10250 3850 10350 3850
+Wire Wire Line
+	10350 3850 10350 3750
+Wire Wire Line
+	9650 4750 9550 4750
+Wire Wire Line
+	9550 4750 9550 4850
+Wire Wire Line
+	10250 5300 10350 5300
+Wire Wire Line
+	10350 5300 10350 5200
+Wire Wire Line
+	9650 6200 9550 6200
+Wire Wire Line
+	9550 6200 9550 6300
 $Comp
 L power-supply:+3V3 #PWR?
-U 1 1 5ED70610
-P 10400 5250
-F 0 "#PWR?" H 10400 5100 50  0001 C CNN
-F 1 "+3V3" H 10415 5423 50  0000 C CNN
-F 2 "" H 10400 5250 50  0000 C CNN
-F 3 "" H 10400 5250 50  0000 C CNN
-	1    10400 5250
+U 1 1 5EFF69D6
+P 10350 3750
+F 0 "#PWR?" H 10350 3600 50  0001 C CNN
+F 1 "+3V3" H 10365 3923 50  0000 C CNN
+F 2 "" H 10350 3750 50  0000 C CNN
+F 3 "" H 10350 3750 50  0000 C CNN
+	1    10350 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power-supply:GND #PWR?
-U 1 1 5ED70A57
-P 9600 6300
-F 0 "#PWR?" H 9600 6050 50  0001 C CNN
-F 1 "GND" H 9605 6127 50  0000 C CNN
-F 2 "" H 9600 6300 50  0000 C CNN
-F 3 "" H 9600 6300 50  0000 C CNN
-	1    9600 6300
+U 1 1 5EFF6F21
+P 9550 4850
+F 0 "#PWR?" H 9550 4600 50  0001 C CNN
+F 1 "GND" H 9555 4677 50  0000 C CNN
+F 2 "" H 9550 4850 50  0000 C CNN
+F 3 "" H 9550 4850 50  0000 C CNN
+	1    9550 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:+3V3 #PWR?
+U 1 1 5EFF73E0
+P 10350 5200
+F 0 "#PWR?" H 10350 5050 50  0001 C CNN
+F 1 "+3V3" H 10365 5373 50  0000 C CNN
+F 2 "" H 10350 5200 50  0000 C CNN
+F 3 "" H 10350 5200 50  0000 C CNN
+	1    10350 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power-supply:GND #PWR?
-U 1 1 5ED70DE4
-P 8200 6250
-F 0 "#PWR?" H 8200 6000 50  0001 C CNN
-F 1 "GND" H 8205 6077 50  0000 C CNN
-F 2 "" H 8200 6250 50  0000 C CNN
-F 3 "" H 8200 6250 50  0000 C CNN
-	1    8200 6250
+U 1 1 5EFF7A2D
+P 9550 6300
+F 0 "#PWR?" H 9550 6050 50  0001 C CNN
+F 1 "GND" H 9555 6127 50  0000 C CNN
+F 2 "" H 9550 6300 50  0000 C CNN
+F 3 "" H 9550 6300 50  0000 C CNN
+	1    9550 6300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9700 6250 9600 6250
-Wire Wire Line
-	9600 6250 9600 6300
-Wire Wire Line
-	8200 6250 8200 6200
-Wire Wire Line
-	8200 6200 8300 6200
-Wire Wire Line
-	9000 5200 9000 5300
-Wire Wire Line
-	9000 5300 8900 5300
-Wire Wire Line
-	10300 5350 10400 5350
-Wire Wire Line
-	10400 5350 10400 5250
 $EndSCHEMATC

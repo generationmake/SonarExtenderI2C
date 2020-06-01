@@ -623,14 +623,6 @@ Text Label 3200 3700 0    50   ~ 0
 DECODE2
 Text Label 3200 3800 0    50   ~ 0
 STATUS_ECHO
-Text Label 3200 3900 0    50   ~ 0
-EN0
-Text Label 3200 4000 0    50   ~ 0
-EN1
-Text Label 3200 4100 0    50   ~ 0
-EN2
-Text Label 3200 4200 0    50   ~ 0
-EN3
 $Comp
 L mechanical-connectors:CONN_01X04 P?
 U 1 1 5ED442DE
@@ -725,31 +717,21 @@ Wire Wire Line
 Wire Wire Line
 	5600 4600 5000 4600
 Wire Wire Line
-	5600 4400 5000 4400
-Wire Wire Line
 	5600 4200 5000 4200
 Wire Wire Line
 	5600 4000 5000 4000
-Wire Wire Line
-	3100 3900 4300 3900
 Wire Wire Line
 	4300 4100 4200 4100
 Wire Wire Line
 	4200 4100 4200 4000
 Wire Wire Line
-	3100 4000 4200 4000
-Wire Wire Line
 	4100 4300 4100 4100
-Wire Wire Line
-	3100 4100 4100 4100
 Wire Wire Line
 	4100 4300 4300 4300
 Wire Wire Line
 	4300 4500 3950 4500
 Wire Wire Line
 	3950 4500 3950 4200
-Wire Wire Line
-	3100 4200 3950 4200
 Wire Wire Line
 	5300 3900 5600 3900
 Wire Wire Line
@@ -766,14 +748,6 @@ Wire Wire Line
 	4100 3800 4300 3800
 Text Label 4200 3450 0    50   ~ 0
 CLK_10KHZ
-Text Label 5350 3900 0    50   ~ 0
-EN0
-Text Label 5350 4100 0    50   ~ 0
-EN1
-Text Label 5350 4300 0    50   ~ 0
-EN2
-Text Label 5350 4500 0    50   ~ 0
-EN3
 $Comp
 L power-supply:+3V3 #PWR?
 U 1 1 5EDCC72A
@@ -1776,4 +1750,38 @@ Text GLabel 7300 4650 0    50   Input ~ 0
 CNT2
 Text GLabel 7300 6150 0    50   Input ~ 0
 CNT3
+Wire Wire Line
+	4300 3900 3850 3900
+Wire Wire Line
+	4200 4000 3850 4000
+Wire Wire Line
+	4100 4100 3850 4100
+Wire Wire Line
+	3950 4200 3850 4200
+Text GLabel 3850 3900 0    50   Input ~ 0
+EN0
+Text GLabel 3850 4000 0    50   Input ~ 0
+EN1
+Text GLabel 3850 4100 0    50   Input ~ 0
+EN2
+Text GLabel 3850 4200 0    50   Input ~ 0
+EN3
+Wire Wire Line
+	5600 4400 5000 4400
+Wire Wire Line
+	3100 3900 3400 3900
+Wire Wire Line
+	3100 4000 3400 4000
+Wire Wire Line
+	3100 4100 3400 4100
+Wire Wire Line
+	3100 4200 3400 4200
+Text GLabel 3400 3900 2    50   Output ~ 0
+T0
+Text GLabel 3400 4000 2    50   Output ~ 0
+T1
+Text GLabel 3400 4100 2    50   Output ~ 0
+T2
+Text GLabel 3400 4200 2    50   Output ~ 0
+T3
 $EndSCHEMATC
