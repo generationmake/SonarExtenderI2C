@@ -23,4 +23,3 @@ If automatic mode is started, the counter will be preset by a d-latch. To preven
 
 With every counting cycle one ultra sonic sensor will be triggered and counter enabled/ other counters stopped. 
 The outputs of the automatic circuit are coupled with the rest of the circuitry using a nand and one and gate.
-This way it should be possible to do manual measurements during automatic mode.
