@@ -14,14 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SonarExtenderI2C-rescue:NE555-IC_logic U?
+L IC_logic:NE555 U?
 U 1 1 5EDEF6C9
 P 3200 2150
 AR Path="/5EDEF6C9" Ref="U?"  Part="1" 
 AR Path="/5EDDA6D0/5EDEF6C9" Ref="U14"  Part="1" 
 F 0 "U14" H 3200 2675 50  0000 C CNN
 F 1 "NE555" H 3200 2584 50  0000 C CNN
-F 2 "" H 3200 2150 50  0001 C CNN
+F 2 "SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 3200 2150 50  0001 C CNN
 F 3 "" H 3200 2150 50  0001 C CNN
 	1    3200 2150
 	1    0    0    -1  
@@ -221,14 +221,14 @@ Wire Wire Line
 Text Label 4150 2250 0    50   ~ 0
 CLK_10Hz
 $Comp
-L SonarExtenderI2C-rescue:74xx175-IC_logic U?
+L IC_logic:74xx175 U?
 U 1 1 5EDF7AF9
 P 7300 4300
 AR Path="/5EDF7AF9" Ref="U?"  Part="1" 
 AR Path="/5EDDA6D0/5EDF7AF9" Ref="U17"  Part="1" 
 F 0 "U17" H 7300 4975 50  0000 C CNN
 F 1 "74xx175" H 7300 4884 50  0000 C CNN
-F 2 "" H 7300 4300 50  0001 C CNN
+F 2 "SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 7300 4300 50  0001 C CNN
 F 3 "" H 7300 4300 50  0001 C CNN
 	1    7300 4300
 	1    0    0    -1  
@@ -293,29 +293,29 @@ Wire Wire Line
 Wire Wire Line
 	7650 4550 8350 4550
 $Comp
-L SonarExtenderI2C-rescue:74xx175-IC_logic U?
+L IC_logic:74xx175 U?
 U 1 1 5EE42B61
 P 3650 5500
 AR Path="/5EE42B61" Ref="U?"  Part="1" 
 AR Path="/5EDDA6D0/5EE42B61" Ref="U15"  Part="1" 
 F 0 "U15" H 3650 6175 50  0000 C CNN
 F 1 "74xx175" H 3650 6084 50  0000 C CNN
-F 2 "" H 3650 5500 50  0001 C CNN
+F 2 "SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 3650 5500 50  0001 C CNN
 F 3 "" H 3650 5500 50  0001 C CNN
 	1    3650 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L SonarExtenderI2C-rescue:74xx00-IC_logic U?
+L IC_logic:74xx00 U?
 U 1 1 5EE54782
-P 5050 4300
+P 5050 4700
 AR Path="/5EE54782" Ref="U?"  Part="1" 
 AR Path="/5EDDA6D0/5EE54782" Ref="U16"  Part="1" 
-F 0 "U16" H 5050 5065 50  0000 C CNN
-F 1 "74xx00" H 5050 4974 50  0000 C CNN
-F 2 "SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 5050 4300 50  0001 C CNN
-F 3 "" H 5050 4300 50  0001 C CNN
-	1    5050 4300
+F 0 "U16" H 5050 5465 50  0000 C CNN
+F 1 "74xx00" H 5050 5374 50  0000 C CNN
+F 2 "SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 5050 4700 50  0001 C CNN
+F 3 "" H 5050 4700 50  0001 C CNN
+	1    5050 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -564,7 +564,7 @@ U 1 1 5EF4E33D
 P 9900 4850
 F 0 "U19" H 9950 6115 50  0000 C CNN
 F 1 "74xx32" H 9950 6024 50  0000 C CNN
-F 2 "" H 9900 4850 50  0001 C CNN
+F 2 "SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 9900 4850 50  0001 C CNN
 F 3 "" H 9900 4850 50  0001 C CNN
 	1    9900 4850
 	1    0    0    -1  
