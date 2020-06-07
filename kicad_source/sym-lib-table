@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SonarExtenderI2C-rescue)(type Legacy)(uri ${KIPRJMOD}/SonarExtenderI2C-rescue.lib)(options "")(descr ""))
+)
