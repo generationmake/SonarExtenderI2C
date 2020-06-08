@@ -14,14 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SonarExtenderI2C-rescue:NE555-IC_logic U?
+L IC_logic:NE555 U?
 U 1 1 5EDEF6C9
 P 3200 2150
 AR Path="/5EDEF6C9" Ref="U?"  Part="1" 
 AR Path="/5EDDA6D0/5EDEF6C9" Ref="U14"  Part="1" 
 F 0 "U14" H 3200 2675 50  0000 C CNN
 F 1 "NE555" H 3200 2584 50  0000 C CNN
-F 2 "" H 3200 2150 50  0001 C CNN
+F 2 "SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 3200 2150 50  0001 C CNN
 F 3 "" H 3200 2150 50  0001 C CNN
 	1    3200 2150
 	1    0    0    -1  
@@ -221,14 +221,14 @@ Wire Wire Line
 Text Label 4150 2250 0    50   ~ 0
 CLK_10Hz
 $Comp
-L SonarExtenderI2C-rescue:74xx175-IC_logic U?
+L IC_logic:74xx175 U?
 U 1 1 5EDF7AF9
 P 7300 4300
 AR Path="/5EDF7AF9" Ref="U?"  Part="1" 
 AR Path="/5EDDA6D0/5EDF7AF9" Ref="U17"  Part="1" 
 F 0 "U17" H 7300 4975 50  0000 C CNN
 F 1 "74xx175" H 7300 4884 50  0000 C CNN
-F 2 "" H 7300 4300 50  0001 C CNN
+F 2 "SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 7300 4300 50  0001 C CNN
 F 3 "" H 7300 4300 50  0001 C CNN
 	1    7300 4300
 	1    0    0    -1  
@@ -293,29 +293,29 @@ Wire Wire Line
 Wire Wire Line
 	7650 4550 8350 4550
 $Comp
-L SonarExtenderI2C-rescue:74xx175-IC_logic U?
+L IC_logic:74xx175 U?
 U 1 1 5EE42B61
 P 3650 5500
 AR Path="/5EE42B61" Ref="U?"  Part="1" 
 AR Path="/5EDDA6D0/5EE42B61" Ref="U15"  Part="1" 
 F 0 "U15" H 3650 6175 50  0000 C CNN
 F 1 "74xx175" H 3650 6084 50  0000 C CNN
-F 2 "" H 3650 5500 50  0001 C CNN
+F 2 "SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 3650 5500 50  0001 C CNN
 F 3 "" H 3650 5500 50  0001 C CNN
 	1    3650 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L SonarExtenderI2C-rescue:74xx00-IC_logic U?
+L IC_logic:74xx00 U?
 U 1 1 5EE54782
-P 5050 4300
+P 5050 4700
 AR Path="/5EE54782" Ref="U?"  Part="1" 
 AR Path="/5EDDA6D0/5EE54782" Ref="U16"  Part="1" 
-F 0 "U16" H 5050 5065 50  0000 C CNN
-F 1 "74xx00" H 5050 4974 50  0000 C CNN
-F 2 "SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 5050 4300 50  0001 C CNN
-F 3 "" H 5050 4300 50  0001 C CNN
-	1    5050 4300
+F 0 "U16" H 5050 5465 50  0000 C CNN
+F 1 "74xx00" H 5050 5374 50  0000 C CNN
+F 2 "SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 5050 4700 50  0001 C CNN
+F 3 "" H 5050 4700 50  0001 C CNN
+	1    5050 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -347,11 +347,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 3350 6100 3900
 Connection ~ 6100 3900
-Wire Wire Line
-	4550 4600 4750 4600
 Text Label 7750 4650 0    50   ~ 0
-Q3#
-Text Label 4550 4600 0    50   ~ 0
 Q3#
 Wire Wire Line
 	5350 4100 5550 4100
@@ -382,9 +378,7 @@ Wire Wire Line
 	5350 4500 6350 4500
 Wire Wire Line
 	4650 4450 5550 4450
-NoConn ~ 4000 5350
 NoConn ~ 4000 5150
-NoConn ~ 4000 5450
 NoConn ~ 4000 5550
 NoConn ~ 4000 5650
 NoConn ~ 4000 5750
@@ -394,12 +388,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 5950 2900 5800
 Wire Wire Line
-	3300 5350 3200 5350
-Wire Wire Line
-	3200 5350 3200 5550
-Wire Wire Line
 	3300 5550 3200 5550
-Connection ~ 3200 5550
 Wire Wire Line
 	3200 5550 3200 5750
 Wire Wire Line
@@ -558,17 +547,6 @@ Wire Wire Line
 	7650 4650 8350 4650
 Text Label 8200 4650 0    50   ~ 0
 E3#
-$Comp
-L IC_logic:74xx32 U19
-U 1 1 5EF4E33D
-P 9900 4850
-F 0 "U19" H 9950 6115 50  0000 C CNN
-F 1 "74xx32" H 9950 6024 50  0000 C CNN
-F 2 "" H 9900 4850 50  0001 C CNN
-F 3 "" H 9900 4850 50  0001 C CNN
-	1    9900 4850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10250 3950 10450 3950
 Wire Wire Line
@@ -609,17 +587,6 @@ Text Label 9350 4350 0    50   ~ 0
 E2
 Text Label 9350 4550 0    50   ~ 0
 E3
-$Comp
-L IC_logic:74xx08 U18
-U 1 1 5EF82717
-P 9750 5700
-F 0 "U18" H 9950 6387 60  0000 C CNN
-F 1 "74xx08" H 9950 6281 60  0000 C CNN
-F 2 "SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 10050 5550 60  0001 C CNN
-F 3 "" H 9750 5700 60  0000 C CNN
-	1    9750 5700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10250 5400 10500 5400
 Wire Wire Line
@@ -668,70 +635,24 @@ Text Label 9400 5900 0    50   ~ 0
 E2#
 Text Label 9400 6100 0    50   ~ 0
 E3#
-Wire Wire Line
-	10250 3850 10350 3850
-Wire Wire Line
-	10350 3850 10350 3750
-Wire Wire Line
-	9650 4750 9550 4750
-Wire Wire Line
-	9550 4750 9550 4850
-Wire Wire Line
-	10250 5300 10350 5300
-Wire Wire Line
-	10350 5300 10350 5200
-Wire Wire Line
-	9650 6200 9550 6200
-Wire Wire Line
-	9550 6200 9550 6300
-$Comp
-L power-supply:+3V3 #PWR062
-U 1 1 5EFF69D6
-P 10350 3750
-F 0 "#PWR062" H 10350 3600 50  0001 C CNN
-F 1 "+3V3" H 10365 3923 50  0000 C CNN
-F 2 "" H 10350 3750 50  0000 C CNN
-F 3 "" H 10350 3750 50  0000 C CNN
-	1    10350 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power-supply:GND #PWR060
-U 1 1 5EFF6F21
-P 9550 4850
-F 0 "#PWR060" H 9550 4600 50  0001 C CNN
-F 1 "GND" H 9555 4677 50  0000 C CNN
-F 2 "" H 9550 4850 50  0000 C CNN
-F 3 "" H 9550 4850 50  0000 C CNN
-	1    9550 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power-supply:+3V3 #PWR063
-U 1 1 5EFF73E0
-P 10350 5200
-F 0 "#PWR063" H 10350 5050 50  0001 C CNN
-F 1 "+3V3" H 10365 5373 50  0000 C CNN
-F 2 "" H 10350 5200 50  0000 C CNN
-F 3 "" H 10350 5200 50  0000 C CNN
-	1    10350 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power-supply:GND #PWR061
-U 1 1 5EFF7A2D
-P 9550 6300
-F 0 "#PWR061" H 9550 6050 50  0001 C CNN
-F 1 "GND" H 9555 6127 50  0000 C CNN
-F 2 "" H 9550 6300 50  0000 C CNN
-F 3 "" H 9550 6300 50  0000 C CNN
-	1    9550 6300
-	1    0    0    -1  
-$EndComp
 Text GLabel 7000 5500 2    50   Output ~ 0
 I2C_INT
-Wire Wire Line
-	6250 5500 7000 5500
 Text Label 6400 5500 0    50   ~ 0
 I2C_INT
+Wire Wire Line
+	3300 5350 3100 5350
+Wire Wire Line
+	4000 5450 4450 5450
+Wire Wire Line
+	4450 5450 4450 4600
+Wire Wire Line
+	4450 4600 4750 4600
+Wire Wire Line
+	4000 5350 5400 5350
+Wire Wire Line
+	5400 5350 5400 5500
+Wire Wire Line
+	5400 5500 7000 5500
+Text Label 3100 5350 0    50   ~ 0
+E3
 $EndSCHEMATC

@@ -347,11 +347,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 3350 6100 3900
 Connection ~ 6100 3900
-Wire Wire Line
-	4550 4600 4750 4600
 Text Label 7750 4650 0    50   ~ 0
-Q3#
-Text Label 4550 4600 0    50   ~ 0
 Q3#
 Wire Wire Line
 	5350 4100 5550 4100
@@ -382,9 +378,7 @@ Wire Wire Line
 	5350 4500 6350 4500
 Wire Wire Line
 	4650 4450 5550 4450
-NoConn ~ 4000 5350
 NoConn ~ 4000 5150
-NoConn ~ 4000 5450
 NoConn ~ 4000 5550
 NoConn ~ 4000 5650
 NoConn ~ 4000 5750
@@ -394,12 +388,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 5950 2900 5800
 Wire Wire Line
-	3300 5350 3200 5350
-Wire Wire Line
-	3200 5350 3200 5550
-Wire Wire Line
 	3300 5550 3200 5550
-Connection ~ 3200 5550
 Wire Wire Line
 	3200 5550 3200 5750
 Wire Wire Line
@@ -558,39 +547,12 @@ Wire Wire Line
 	7650 4650 8350 4650
 Text Label 8200 4650 0    50   ~ 0
 E3#
-$Comp
-L IC_logic:74xx32 U19
-U 1 1 5EF4E33D
-P 9900 4850
-F 0 "U19" H 9950 6115 50  0000 C CNN
-F 1 "74xx32" H 9950 6024 50  0000 C CNN
-F 2 "SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 9900 4850 50  0001 C CNN
-F 3 "" H 9900 4850 50  0001 C CNN
-	1    9900 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10250 3950 10450 3950
-Wire Wire Line
-	10250 4150 10450 4150
-Wire Wire Line
-	10250 4350 10450 4350
-Wire Wire Line
-	10250 4550 10450 4550
-Wire Wire Line
-	9650 3950 9350 3950
 Wire Wire Line
 	9650 4050 9300 4050
 Wire Wire Line
-	9650 4150 9350 4150
-Wire Wire Line
 	9650 4250 9300 4250
 Wire Wire Line
-	9650 4350 9350 4350
-Wire Wire Line
 	9650 4450 9300 4450
-Wire Wire Line
-	9650 4550 9350 4550
 Wire Wire Line
 	9650 4650 9300 4650
 Text GLabel 9300 4050 0    50   Input ~ 0
@@ -609,25 +571,6 @@ Text Label 9350 4350 0    50   ~ 0
 E2
 Text Label 9350 4550 0    50   ~ 0
 E3
-$Comp
-L IC_logic:74xx08 U18
-U 1 1 5EF82717
-P 9750 5700
-F 0 "U18" H 9950 6387 60  0000 C CNN
-F 1 "74xx08" H 9950 6281 60  0000 C CNN
-F 2 "SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 10050 5550 60  0001 C CNN
-F 3 "" H 9750 5700 60  0000 C CNN
-	1    9750 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10250 5400 10500 5400
-Wire Wire Line
-	10250 5600 10500 5600
-Wire Wire Line
-	10250 5800 10500 5800
-Wire Wire Line
-	10250 6000 10500 6000
 Text GLabel 10500 5400 2    50   Output ~ 0
 CNT0
 Text GLabel 10500 5600 2    50   Output ~ 0
@@ -636,14 +579,6 @@ Text GLabel 10500 5800 2    50   Output ~ 0
 CNT2
 Text GLabel 10500 6000 2    50   Output ~ 0
 CNT3
-Wire Wire Line
-	9650 5400 9300 5400
-Wire Wire Line
-	9650 5600 9300 5600
-Wire Wire Line
-	9650 5800 9300 5800
-Wire Wire Line
-	9650 6000 9300 6000
 Text GLabel 9300 5400 0    50   Input ~ 0
 ENABLE0
 Text GLabel 9300 5600 0    50   Input ~ 0
@@ -668,70 +603,80 @@ Text Label 9400 5900 0    50   ~ 0
 E2#
 Text Label 9400 6100 0    50   ~ 0
 E3#
-Wire Wire Line
-	10250 3850 10350 3850
-Wire Wire Line
-	10350 3850 10350 3750
-Wire Wire Line
-	9650 4750 9550 4750
-Wire Wire Line
-	9550 4750 9550 4850
-Wire Wire Line
-	10250 5300 10350 5300
-Wire Wire Line
-	10350 5300 10350 5200
-Wire Wire Line
-	9650 6200 9550 6200
-Wire Wire Line
-	9550 6200 9550 6300
-$Comp
-L power-supply:+3V3 #PWR062
-U 1 1 5EFF69D6
-P 10350 3750
-F 0 "#PWR062" H 10350 3600 50  0001 C CNN
-F 1 "+3V3" H 10365 3923 50  0000 C CNN
-F 2 "" H 10350 3750 50  0000 C CNN
-F 3 "" H 10350 3750 50  0000 C CNN
-	1    10350 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power-supply:GND #PWR060
-U 1 1 5EFF6F21
-P 9550 4850
-F 0 "#PWR060" H 9550 4600 50  0001 C CNN
-F 1 "GND" H 9555 4677 50  0000 C CNN
-F 2 "" H 9550 4850 50  0000 C CNN
-F 3 "" H 9550 4850 50  0000 C CNN
-	1    9550 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power-supply:+3V3 #PWR063
-U 1 1 5EFF73E0
-P 10350 5200
-F 0 "#PWR063" H 10350 5050 50  0001 C CNN
-F 1 "+3V3" H 10365 5373 50  0000 C CNN
-F 2 "" H 10350 5200 50  0000 C CNN
-F 3 "" H 10350 5200 50  0000 C CNN
-	1    10350 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power-supply:GND #PWR061
-U 1 1 5EFF7A2D
-P 9550 6300
-F 0 "#PWR061" H 9550 6050 50  0001 C CNN
-F 1 "GND" H 9555 6127 50  0000 C CNN
-F 2 "" H 9550 6300 50  0000 C CNN
-F 3 "" H 9550 6300 50  0000 C CNN
-	1    9550 6300
-	1    0    0    -1  
-$EndComp
 Text GLabel 7000 5500 2    50   Output ~ 0
 I2C_INT
-Wire Wire Line
-	6250 5500 7000 5500
 Text Label 6400 5500 0    50   ~ 0
 I2C_INT
+Wire Wire Line
+	3300 5350 3100 5350
+Wire Wire Line
+	4000 5450 4450 5450
+Wire Wire Line
+	4450 5450 4450 4600
+Wire Wire Line
+	4450 4600 4750 4600
+Wire Wire Line
+	4000 5350 5400 5350
+Wire Wire Line
+	5400 5350 5400 5500
+Wire Wire Line
+	5400 5500 7000 5500
+Text Label 3100 5350 0    50   ~ 0
+E3
+Wire Wire Line
+	9350 3950 9650 3950
+Wire Wire Line
+	9650 4050 9650 3950
+Connection ~ 9650 3950
+Wire Wire Line
+	9650 3950 10450 3950
+Wire Wire Line
+	9350 4150 9650 4150
+Wire Wire Line
+	9650 4250 9650 4150
+Connection ~ 9650 4150
+Wire Wire Line
+	9650 4150 10450 4150
+Wire Wire Line
+	9350 4350 9650 4350
+Wire Wire Line
+	9650 4450 9650 4350
+Connection ~ 9650 4350
+Wire Wire Line
+	9650 4350 10450 4350
+Wire Wire Line
+	9350 4550 9650 4550
+Wire Wire Line
+	9650 4550 9650 4650
+Connection ~ 9650 4550
+Wire Wire Line
+	9650 4550 10450 4550
+Wire Wire Line
+	9300 5400 9650 5400
+Wire Wire Line
+	9650 5500 9650 5400
+Connection ~ 9650 5400
+Wire Wire Line
+	9650 5400 10500 5400
+Wire Wire Line
+	9300 5600 9650 5600
+Wire Wire Line
+	9650 5700 9650 5600
+Connection ~ 9650 5600
+Wire Wire Line
+	9650 5600 10500 5600
+Wire Wire Line
+	9300 5800 9650 5800
+Wire Wire Line
+	9650 5900 9650 5800
+Connection ~ 9650 5800
+Wire Wire Line
+	9650 5800 10500 5800
+Wire Wire Line
+	9300 6000 9650 6000
+Wire Wire Line
+	9650 6000 9650 6100
+Connection ~ 9650 6000
+Wire Wire Line
+	9650 6000 10500 6000
 $EndSCHEMATC
