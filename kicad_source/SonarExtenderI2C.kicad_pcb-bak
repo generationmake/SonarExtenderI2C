@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 15)
+    (drawings 16)
     (tracks 1416)
     (zones 0)
     (modules 74)
@@ -4313,6 +4313,9 @@
     )
   )
 
+  (gr_text v0.1 (at 95.1 89.2) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text SonarExtenderI2C (at 93.20784 58.42508 90) (layer F.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
