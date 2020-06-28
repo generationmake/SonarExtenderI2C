@@ -1368,7 +1368,6 @@ Wire Wire Line
 	3700 6900 2950 6900
 Wire Wire Line
 	2950 7000 3700 7000
-NoConn ~ 2950 7200
 NoConn ~ 2950 7300
 NoConn ~ 2950 7400
 Text Label 3250 7000 0    50   ~ 0
@@ -1467,13 +1466,13 @@ Wire Wire Line
 Text Label 10300 5150 0    50   ~ 0
 STATUS_ECHO
 Text GLabel 7300 1500 0    50   Input ~ 0
-CNT0
+ENABLE0
 Text GLabel 7300 3000 0    50   Input ~ 0
-CNT1
+ENABLE1
 Text GLabel 7300 4650 0    50   Input ~ 0
-CNT2
+ENABLE2
 Text GLabel 7300 6150 0    50   Input ~ 0
-CNT3
+ENABLE3
 Wire Wire Line
 	4300 3900 3850 3900
 Wire Wire Line
@@ -2036,7 +2035,7 @@ F 3 "" H 700 7100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_logic:74xx590 U12
+L SonarExtenderI2C-rescue:74xx590-IC_logic U12
 U 1 1 5EE73281
 P 8200 6150
 F 0 "U12" H 8200 6875 50  0000 C CNN
@@ -2047,7 +2046,7 @@ F 3 "" H 8200 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_logic:74xx590 U11
+L SonarExtenderI2C-rescue:74xx590-IC_logic U11
 U 1 1 5EE73231
 P 8200 4650
 F 0 "U11" H 8200 5375 50  0000 C CNN
@@ -2058,7 +2057,7 @@ F 3 "" H 8200 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_logic:74xx590 U10
+L SonarExtenderI2C-rescue:74xx590-IC_logic U10
 U 1 1 5EE4DE46
 P 8200 3000
 F 0 "U10" H 8200 3725 50  0000 C CNN
@@ -2069,7 +2068,7 @@ F 3 "" H 8200 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_logic:74xx590 U9
+L SonarExtenderI2C-rescue:74xx590-IC_logic U9
 U 1 1 5ED3FBEA
 P 8200 1500
 F 0 "U9" H 8200 2225 50  0000 C CNN
@@ -2102,7 +2101,7 @@ F 3 "" H 5700 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_logic:74xx04 U7
+L SonarExtenderI2C-rescue:74xx04-IC_logic U7
 U 1 1 5EEE08C7
 P 5200 6400
 F 0 "U7" H 5200 6975 50  0000 C CNN
@@ -2113,7 +2112,7 @@ F 3 "" H 5200 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_logic:74xx138 U4
+L SonarExtenderI2C-rescue:74xx138-IC_logic U4
 U 1 1 5F07A383
 P 2600 7050
 F 0 "U4" H 2600 7725 50  0000 C CNN
@@ -2124,7 +2123,7 @@ F 3 "" H 2600 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_interface_i2c:TCA9535 U2
+L SonarExtenderI2C-rescue:TCA9535-IC_interface_i2c U2
 U 1 1 5F072FE1
 P 2600 4300
 F 0 "U2" H 2600 5447 60  0000 C CNN
@@ -2135,7 +2134,7 @@ F 3 "" H 3200 4050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_logic:74xx175 U6
+L SonarExtenderI2C-rescue:74xx175-IC_logic U6
 U 1 1 5ED68086
 P 4650 4250
 F 0 "U6" H 4650 4925 50  0000 C CNN
@@ -2146,7 +2145,7 @@ F 3 "" H 4650 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_logic:NE555 U1
+L SonarExtenderI2C-rescue:NE555-IC_logic U1
 U 1 1 5ED3F84C
 P 1950 1400
 F 0 "U1" H 1950 1925 50  0000 C CNN
@@ -2157,7 +2156,7 @@ F 3 "" H 1950 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_logic:74xx4002 U13
+L SonarExtenderI2C-rescue:74xx4002-IC_logic U13
 U 1 1 5EF9FE5E
 P 10000 5650
 F 0 "U13" H 10000 6475 50  0000 C CNN
@@ -2189,4 +2188,8 @@ F 3 "" V 800 4450 50  0000 C CNN
 	1    800  4450
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	2950 7200 3700 7200
+Text GLabel 3700 7200 2    50   Output ~ 0
+PAUSE
 $EndSCHEMATC
