@@ -1126,4 +1126,200 @@ NoConn ~ 2950 2500
 NoConn ~ 2950 2600
 NoConn ~ 3550 2500
 NoConn ~ 3550 2300
+$Comp
+L devices:R_0603 R?
+U 1 1 5F04A413
+P 8150 950
+AR Path="/5F04A413" Ref="R?"  Part="1" 
+AR Path="/5EDDA6D0/5F04A413" Ref="R13"  Part="1" 
+F 0 "R13" H 8209 996 50  0000 L CNN
+F 1 "220" H 8209 905 50  0000 L CNN
+F 2 "resistors:R_0603" H 8150 800 50  0001 C CNN
+F 3 "" H 8150 950 50  0000 C CNN
+	1    8150 950 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 950  8250 950 
+$Comp
+L power-supply:GND #PWR?
+U 1 1 5F04A41A
+P 8600 1000
+AR Path="/5F04A41A" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDA6D0/5F04A41A" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 8600 750 50  0001 C CNN
+F 1 "GND" H 8605 827 50  0000 C CNN
+F 2 "" H 8600 1000 50  0000 C CNN
+F 3 "" H 8600 1000 50  0000 C CNN
+	1    8600 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 950  8600 1000
+Wire Wire Line
+	8500 950  8600 950 
+$Comp
+L devices:R_0603 R?
+U 1 1 5F04A422
+P 8150 1500
+AR Path="/5F04A422" Ref="R?"  Part="1" 
+AR Path="/5EDDA6D0/5F04A422" Ref="R14"  Part="1" 
+F 0 "R14" H 8209 1546 50  0000 L CNN
+F 1 "220" H 8209 1455 50  0000 L CNN
+F 2 "resistors:R_0603" H 8150 1350 50  0001 C CNN
+F 3 "" H 8150 1500 50  0000 C CNN
+	1    8150 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 1500 8250 1500
+$Comp
+L power-supply:GND #PWR?
+U 1 1 5F04A429
+P 8600 1550
+AR Path="/5F04A429" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDA6D0/5F04A429" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0133" H 8600 1300 50  0001 C CNN
+F 1 "GND" H 8605 1377 50  0000 C CNN
+F 2 "" H 8600 1550 50  0000 C CNN
+F 3 "" H 8600 1550 50  0000 C CNN
+	1    8600 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 1500 8600 1550
+Wire Wire Line
+	8500 1500 8600 1500
+$Comp
+L devices:R_0603 R?
+U 1 1 5F04A431
+P 8150 2000
+AR Path="/5F04A431" Ref="R?"  Part="1" 
+AR Path="/5EDDA6D0/5F04A431" Ref="R15"  Part="1" 
+F 0 "R15" H 8209 2046 50  0000 L CNN
+F 1 "220" H 8209 1955 50  0000 L CNN
+F 2 "resistors:R_0603" H 8150 1850 50  0001 C CNN
+F 3 "" H 8150 2000 50  0000 C CNN
+	1    8150 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 2000 8250 2000
+$Comp
+L power-supply:GND #PWR?
+U 1 1 5F04A438
+P 8600 2050
+AR Path="/5F04A438" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDA6D0/5F04A438" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 8600 1800 50  0001 C CNN
+F 1 "GND" H 8605 1877 50  0000 C CNN
+F 2 "" H 8600 2050 50  0000 C CNN
+F 3 "" H 8600 2050 50  0000 C CNN
+	1    8600 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 2000 8600 2050
+Wire Wire Line
+	8500 2000 8600 2000
+$Comp
+L devices:R_0603 R?
+U 1 1 5F04A440
+P 8150 2500
+AR Path="/5F04A440" Ref="R?"  Part="1" 
+AR Path="/5EDDA6D0/5F04A440" Ref="R16"  Part="1" 
+F 0 "R16" H 8209 2546 50  0000 L CNN
+F 1 "220" H 8209 2455 50  0000 L CNN
+F 2 "resistors:R_0603" H 8150 2350 50  0001 C CNN
+F 3 "" H 8150 2500 50  0000 C CNN
+	1    8150 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L devices:Led_Small D?
+U 1 1 5F04A446
+P 8400 2500
+AR Path="/5F04A446" Ref="D?"  Part="1" 
+AR Path="/5EDDA6D0/5F04A446" Ref="D10"  Part="1" 
+F 0 "D10" H 8400 2205 50  0000 C CNN
+F 1 "150060GS75000" H 8400 2296 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 8400 2387 50  0000 C CNN
+F 3 "" V 8400 2500 50  0000 C CNN
+	1    8400 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8300 2500 8250 2500
+$Comp
+L power-supply:GND #PWR?
+U 1 1 5F04A44D
+P 8600 2550
+AR Path="/5F04A44D" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDA6D0/5F04A44D" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 8600 2300 50  0001 C CNN
+F 1 "GND" H 8605 2377 50  0000 C CNN
+F 2 "" H 8600 2550 50  0000 C CNN
+F 3 "" H 8600 2550 50  0000 C CNN
+	1    8600 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 2500 8600 2550
+Wire Wire Line
+	8500 2500 8600 2500
+Wire Wire Line
+	8050 2500 7900 2500
+Wire Wire Line
+	8050 2000 7900 2000
+Wire Wire Line
+	8050 1500 7900 1500
+Wire Wire Line
+	8050 950  7900 950 
+Text GLabel 7900 950  0    50   Input ~ 0
+EN0
+Text GLabel 7900 1500 0    50   Input ~ 0
+EN1
+Text GLabel 7900 2000 0    50   Input ~ 0
+EN2
+Text GLabel 7900 2500 0    50   Input ~ 0
+EN3
+$Comp
+L devices:Led_Small D?
+U 1 1 5F04A45D
+P 8400 2000
+AR Path="/5F04A45D" Ref="D?"  Part="1" 
+AR Path="/5EDDA6D0/5F04A45D" Ref="D9"  Part="1" 
+F 0 "D9" H 8400 1705 50  0000 C CNN
+F 1 "150060GS75000" H 8400 1796 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 8400 1887 50  0000 C CNN
+F 3 "" V 8400 2000 50  0000 C CNN
+	1    8400 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L devices:Led_Small D?
+U 1 1 5F04A463
+P 8400 1500
+AR Path="/5F04A463" Ref="D?"  Part="1" 
+AR Path="/5EDDA6D0/5F04A463" Ref="D8"  Part="1" 
+F 0 "D8" H 8400 1205 50  0000 C CNN
+F 1 "150060GS75000" H 8400 1296 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 8400 1387 50  0000 C CNN
+F 3 "" V 8400 1500 50  0000 C CNN
+	1    8400 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L devices:Led_Small D?
+U 1 1 5F04A469
+P 8400 950
+AR Path="/5F04A469" Ref="D?"  Part="1" 
+AR Path="/5EDDA6D0/5F04A469" Ref="D7"  Part="1" 
+F 0 "D7" H 8400 655 50  0000 C CNN
+F 1 "150060GS75000" H 8400 746 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 8400 837 50  0000 C CNN
+F 3 "" V 8400 950 50  0000 C CNN
+	1    8400 950 
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
