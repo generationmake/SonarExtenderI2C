@@ -1,288 +1,435 @@
-64432326847325
-SSOP
-MSOP-8-1EP_3x3mm_Pitch0.65mm
-MS8E Package; 8-Lead Plastic MSOP, Exposed Die Pad (see Linear Technology 05081662_K_MS8E.pdf)
-SSOP 0.65
+98577722245065
+capacitors
+C_0201
+Capacitor SMD 0201, reflow soldering, AVX (see smccp.pdf)
+capacitor 0201
 0
-12
-9
-SSOP
-MSOP-8_3x3mm_Pitch0.65mm
-8-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.65
+2
+2
+capacitors
+C_0402
+Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)
+capacitor 0402
 0
-8
-8
-SSOP
-MSOP-10-1EP_3x3mm_Pitch0.5mm
-MSE Package; 10-Lead Plastic MSOP, Exposed Die Pad (see Linear Technology 05081664_I_MSE.pdf)
-SSOP 0.5
+2
+2
+capacitors
+C_0603
+Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)
+capacitor 0603
 0
-14
-11
-SSOP
-MSOP-10_3x3mm_Pitch0.5mm
-10-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.5
+2
+2
+capacitors
+C_0603_HandSoldering
+Capacitor SMD 0603, hand soldering
+capacitor 0603
 0
-10
-10
-SSOP
-MSOP-12-1EP_3x4mm_Pitch0.65mm
-MSE Package; 12-Lead Plastic MSOP, Exposed Die Pad; (see Linear Technology 05081666_G_MSE12.pdf)
-SSOP 0.65
+2
+2
+capacitors
+C_0805
+Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
+capacitor 0805
 0
-20
-13
-SSOP
-MSOP-12_3x4mm_Pitch0.65mm
-MS Package; 12-Lead Plastic MSOP; (see Linear Technology 05081668_A_MS12.pdf)
-SSOP 0.65
+2
+2
+capacitors
+C_0805_HandSoldering
+Capacitor SMD 0805, hand soldering
+capacitor 0805
 0
-12
-12
-SSOP
-MSOP-16(12)-1EP-VIA_3x4mm_Pitch0.5mm
-10-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.5
+2
+2
+capacitors
+C_1206
+Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)
+capacitor 1206
 0
-16
-13
-SSOP
-MSOP-16(12)-1EP_3x4mm_Pitch0.5mm
-10-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.5
+2
+2
+capacitors
+C_1206_HandSoldering
+Capacitor SMD 1206, hand soldering
+capacitor 1206
 0
-13
-13
-SSOP
-MSOP-16(12)_3x4mm_Pitch0.5mm
-10-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.5
+2
+2
+capacitors
+C_1210
+Capacitor SMD 1210, reflow soldering, AVX (see smccp.pdf)
+capacitor 1210
 0
-12
-12
-SSOP
-MSOP-16-1EP-VIA_3x4mm_Pitch0.5mm
-10-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.5
+2
+2
+capacitors
+C_1210_HandSoldering
+Capacitor SMD 1210, hand soldering
+capacitor 1210
 0
-20
-17
-SSOP
-MSOP-16-1EP_3x4mm_Pitch0.5mm
-10-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.5
+2
+2
+capacitors
+C_1812
+Capacitor SMD 1812, reflow soldering, AVX (see smccp.pdf)
+capacitor 1812
 0
-17
-17
-SSOP
-MSOP-16_3x4mm_Pitch0.5mm
-10-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.5
+2
+2
+capacitors
+C_1812_HandSoldering
+Capacitor SMD 1812, hand soldering
+capacitor 1812
 0
-16
-15
-SSOP
-QSOP-16_3.9x4.9mm_Pitch0.635mm
-16-Lead Plastic Shrink Small Outline Narrow Body (QR)-.150" Body [QSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.635
+2
+2
+capacitors
+C_1825
+Capacitor SMD 1825, reflow soldering, AVX (see smccp.pdf)
+capacitor 1825
 0
-16
-16
-SSOP
-SSOP-14_5.3x6.2mm_Pitch0.65mm
-SSOP14: plastic shrink small outline package; 14 leads; body width 5.3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot337-1_po.pdf)
-SSOP 0.65
+2
+2
+capacitors
+C_1825_HandSoldering
+Capacitor SMD 1825, hand soldering
+capacitor 1825
 0
-14
-14
-SSOP
-SSOP-16_3.9x4.9mm_Pitch0.635mm
-SSOP16: plastic shrink small outline package; 16 leads; body width 3.9 mm; lead pitch 0.635; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot519-1_po.pdf)
-SSOP 0.635
+2
+2
+capacitors
+C_2220
+Capacitor SMD 2220, reflow soldering, AVX (see smccp.pdf)
+capacitor 2220
 0
-16
-16
-SSOP
-SSOP-16_4.4x5.2mm_Pitch0.65mm
-SSOP16: plastic shrink small outline package; 16 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot369-1_po.pdf)
-SSOP 0.65
+2
+2
+capacitors
+C_2220_HandSoldering
+Capacitor SMD 2220, hand soldering
+capacitor 2220
 0
-16
-16
-SSOP
-SSOP-16_5.3x6.2mm_Pitch0.65mm
-SSOP16: plastic shrink small outline package; 16 leads; body width 5.3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot338-1_po.pdf)
-SSOP 0.65
+2
+2
+capacitors
+C_2225
+Capacitor SMD 2225, reflow soldering, AVX (see smccp.pdf)
+capacitor 2225
 0
-16
-16
-SSOP
-SSOP-20_4.4x6.5mm_Pitch0.65mm
-SSOP20: plastic shrink small outline package; 20 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot266-1_po.pdf)
-SSOP 0.65
+2
+2
+capacitors
+C_2225_HandSoldering
+Capacitor SMD 2225, hand soldering
+capacitor 2225
 0
-20
-20
-SSOP
-SSOP-20_5.3x7.2mm_Pitch0.65mm
-20-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.65
+2
+2
+capacitors
+C_elec_THT_16x25_RM7.5
+
+
 0
-20
-20
-SSOP
-SSOP-24_3.9x8.7mm_Pitch0.635mm
-SSOP24: plastic shrink small outline package; 24 leads; body width 3.9 mm; lead pitch 0.635; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot556-1_po.pdf)
-SSOP 0.635
+2
+2
+capacitors
+TantalC_SizeA_EIA-3216_HandSoldering
+Tantal Cap. , Size A, EIA-3216, Hand Soldering,
+Tantal Cap. , Size A, EIA-3216, Hand Soldering,
 0
-24
-24
-SSOP
-SSOP-24_5.3x8.2mm_Pitch0.65mm
-24-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.65
+2
+2
+capacitors
+TantalC_SizeA_EIA-3216_Reflow
+Tantal Cap. , Size A, EIA-3216, Reflow
+Tantal Capacitor Size-A EIA-3216 reflow
 0
-24
-24
-SSOP
-SSOP-28_5.3x10.2mm_Pitch0.65mm
-28-Lead Plastic Shrink Small Outline (SS)-5.30 mm Body [SSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.65
+2
+2
+capacitors
+TantalC_SizeA_EIA-3216_Wave
+Tantal Cap. , Size A, EIA-3216, Wave,
+Tantal Cap. , Size A, EIA-3216, Wave,
 0
-28
-28
-SSOP
-SSOP-48_7.5x15.9mm_Pitch0.635mm
-SSOP48: plastic shrink small outline package; 48 leads; body width 7.5 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot370-1_po.pdf)
-SSOP 0.635
+2
+2
+capacitors
+TantalC_SizeB_EIA-3528_HandSoldering
+Tantal Cap. , Size B, EIA-3528, Hand Soldering,
+Tantal Cap. , Size B, EIA-3528, Hand Soldering,
 0
-48
-48
-SSOP
-SSOP-56_7.5x18.5mm_Pitch0.635mm
-SSOP56: plastic shrink small outline package; 56 leads; body width 7.5 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot371-1_po.pdf)
-SSOP 0.635
+2
+2
+capacitors
+TantalC_SizeB_EIA-3528_Reflow
+Tantal Cap. , Size B, EIA-3528, Reflow
+Tantal Capacitor Size-B EIA-3528 Reflow
 0
-56
-56
-SSOP
-TSSOP-8_3x3mm_Pitch0.65mm
-TSSOP8: plastic thin shrink small outline package; 8 leads; body width 3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot505-1_po.pdf)
-SSOP 0.65
+2
+2
+capacitors
+TantalC_SizeB_EIA-3528_Wave
+Tantal Cap. , Size B, EIA-3528, Wave,
+Tantal Cap. , Size B, EIA-3528, Wave,
 0
-8
-8
-SSOP
-TSSOP-8_4.4x3mm_Pitch0.65mm
-8-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.65
+2
+2
+capacitors
+TantalC_SizeC_EIA-6032_HandSoldering
+Tantal Cap. , Size C, EIA-6032, Hand Soldering,
+Tantal Cap. , Size C, EIA-6032, Hand Soldering,
 0
-8
-8
-SSOP
-TSSOP-10_3x3mm_Pitch0.5mm
-TSSOP10: plastic thin shrink small outline package; 10 leads; body width 3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot552-1_po.pdf)
-SSOP 0.5
+2
+2
+capacitors
+TantalC_SizeC_EIA-6032_Reflow
+Tantal Cap. , Size C, EIA-6032, Reflow
+Tantal Capacitor Size-C EIA-6032 Reflow
 0
-10
-10
-SSOP
-TSSOP-14_4.4x5mm_Pitch0.65mm
-14-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.65
+2
+2
+capacitors
+TantalC_SizeC_EIA-6032_Wave
+Tantal Cap. , Size C, EIA-6032, Wave,
+Tantal Cap. , Size C, EIA-6032, Wave,
 0
-14
-14
-SSOP
-TSSOP-16-1EP_4.4x5mm_Pitch0.65mm
-FE Package; 16-Lead Plastic TSSOP (4.4mm); Exposed Pad Variation BB; (see Linear Technology 1956f.pdf)
-SSOP 0.65
+2
+2
+capacitors
+TantalC_SizeD_EIA-7343_HandSoldering
+Tantal Cap. , Size D, EIA-7343, Hand Soldering,
+Tantal Cap. , Size D, EIA-7343, Hand Soldering,
 0
-24
-17
-SSOP
-TSSOP-16_4.4x5mm_Pitch0.65mm
-16-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.65
+2
+2
+capacitors
+TantalC_SizeD_EIA-7343_Reflow
+Tantal Cap. , Size D, EIA-7343, Reflow
+Tantal Capacitor Size-D EIA-7343 Reflow
 0
-16
-16
-SSOP
-TSSOP-20_4.4x6.5mm_Pitch0.65mm
-20-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.65
+2
+2
+capacitors
+TantalC_SizeD_EIA-7343_Wave
+Tantal Cap. , Size D, EIA-7343, Wave,
+Tantal Cap. , Size D, EIA-7343, Wave,
 0
-20
-20
-SSOP
-TSSOP-24_4.4x7.8mm_Pitch0.65mm
-TSSOP24: plastic thin shrink small outline package; 24 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot355-1_po.pdf)
-SSOP 0.65
+2
+2
+capacitors
+TantalC_SizeE_EIA-7360_HandSoldering
+Tantal Cap. , Size E, EIA-7360, Hand Soldering,
+Tantal Cap. , Size E, EIA-7360, Hand Soldering,
 0
-24
-24
-SSOP
-TSSOP-28_4.4x9.7mm_Pitch0.65mm
-TSSOP28: plastic thin shrink small outline package; 28 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot361-1_po.pdf)
-SSOP 0.65
+2
+2
+capacitors
+TantalC_SizeE_EIA-7360_Reflow
+Tantal Cap. , Size E, EIA-7360, Reflow,
+Tantal Capacitor Size-E EIA-7360 Reflow
 0
-28
-28
-SSOP
-TSSOP-32_6.1x11mm_Pitch0.65mm
-TSSOP32: plastic thin shrink small outline package; 32 leads; body width 6.1 mm; lead pitch 0.65 mm (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot487-1_po.pdf)
-SSOP 0.65
+2
+2
+capacitors
+TantalC_SizeE_EIA-7360_Wave
+Tantal Cap. , Size E, EIA-7360, Wave,
+Tantal Cap. , Size E, EIA-7360, Wave,
 0
-32
-32
-SSOP
-TSSOP-38_4.4x9.7mm_Pitch0.5mm
-TSSOP38: plastic thin shrink small outline package; 38 leads; body width 4.4 mm (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot510-1_po.pdf)
-SSOP 0.5
+2
+2
+capacitors
+TantalC_SizeR_EIA-2012
+Tantal Cap. , Size C, EIA-2012
+
 0
-38
-38
-SSOP
-TSSOP-44_4.4x11.2mm_Pitch0.5mm
-TSSOP44: plastic thin shrink small outline package; 44 leads; body width 4.4 mm (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot510-1_po.pdf)
-SSOP 0.5
+2
+2
+capacitors
+TantalC_SizeS_EIA-3216
+Tantal Cap. , Size S, EIA-3216, Hand Soldering
+
 0
-44
-44
-SSOP
-TSSOP-48_6.1x12.5mm_Pitch0.5mm
-TSSOP48: plastic thin shrink small outline package; 48 leads; body width 6.1 mm (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot362-1_po.pdf)
-SSOP 0.5
+2
+2
+capacitors
+TantalC_SizeT_EIA-3528
+TantalC_SizeT_EIA-3528
+
 0
-48
-48
-SSOP
-TSSOP-56-1EP_6.1x14mm_Pitch0.5mm
-TSSOP56: plastic thin shrink small outline package; 56 leads; body width 6.1 mm (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot364-1_po.pdf)
-SSOP 0.5
+2
+2
+capacitors
+TantalC_SizeU_EIA-6032
+TantalC_SizeU_EIA-6032
+
 0
-57
-57
-SSOP
-TSSOP-56_6.1x14mm_Pitch0.5mm
-TSSOP56: plastic thin shrink small outline package; 56 leads; body width 6.1 mm (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot364-1_po.pdf)
-SSOP 0.5
+2
+2
+capacitors
+TantalC_SizeV_EIA-7343
+TantalC_SizeV_EIA-7343
+
 0
-56
-56
-SSOP
-VSO-40_7.6x15.4mm_Pitch0.762mm
-VSO40: plastic very small outline package; 40 leads (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot158-1_po.pdf)
-SSOP 0.762
+2
+2
+capacitors
+TantalC_SizeX_EIA-7343
+TantalC_SizeX_EIA-7343
+
 0
-40
-40
-SSOP
-VSO-56_11.1x21.5mm_Pitch0.75mm
-VSO56: plastic very small outline package; 56 leads (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot190-1_po.pdf)
-SSOP 0.75
+2
+2
+capacitors
+c_elec_3x5.3
+SMT capacitor, aluminium electrolytic, 3x5.3
+
 0
-56
-56
+2
+2
+capacitors
+c_elec_4x4.5
+SMT capacitor, aluminium electrolytic, 4x4.5
+
+0
+2
+2
+capacitors
+c_elec_4x5.3
+SMT capacitor, aluminium electrolytic, 4x5.3
+
+0
+2
+2
+capacitors
+c_elec_4x5.7
+SMT capacitor, aluminium electrolytic, 4x5.7
+
+0
+2
+2
+capacitors
+c_elec_4x5.8
+SMT capacitor, aluminium electrolytic, 4x5.8
+
+0
+2
+2
+capacitors
+c_elec_5x4.5
+SMT capacitor, aluminium electrolytic, 5x4.5
+
+0
+2
+2
+capacitors
+c_elec_5x5.3
+SMT capacitor, aluminium electrolytic, 5x5.3
+
+0
+2
+2
+capacitors
+c_elec_5x5.7
+SMT capacitor, aluminium electrolytic, 5x5.7
+
+0
+2
+2
+capacitors
+c_elec_5x5.8
+SMT capacitor, aluminium electrolytic, 5x5.8
+
+0
+2
+2
+capacitors
+c_elec_6.3x4.5
+SMT capacitor, aluminium electrolytic, 6.3x4.5
+
+0
+2
+2
+capacitors
+c_elec_6.3x5.3
+SMT capacitor, aluminium electrolytic, 6.3x5.3
+
+0
+2
+2
+capacitors
+c_elec_6.3x5.7
+SMT capacitor, aluminium electrolytic, 6.3x5.7
+
+0
+2
+2
+capacitors
+c_elec_6.3x5.8
+SMT capacitor, aluminium electrolytic, 6.3x5.8
+
+0
+2
+2
+capacitors
+c_elec_6.3x7.7
+SMT capacitor, aluminium electrolytic, 6.3x7.7
+
+0
+2
+2
+capacitors
+c_elec_8x5.4
+SMT capacitor, aluminium electrolytic, 8x5.4
+
+0
+2
+2
+capacitors
+c_elec_8x6.5
+SMT capacitor, aluminium electrolytic, 8x6.5
+
+0
+2
+2
+capacitors
+c_elec_8x6.7
+SMT capacitor, aluminium electrolytic, 8x6.7
+
+0
+2
+2
+capacitors
+c_elec_8x10
+SMT capacitor, aluminium electrolytic, 8x10
+
+0
+2
+2
+capacitors
+c_elec_8x10.5
+SMT capacitor, aluminium electrolytic, 8x10.5
+
+0
+2
+2
+capacitors
+c_elec_10x7.7
+SMT capacitor, aluminium electrolytic, 10x7.7
+
+0
+2
+2
+capacitors
+c_elec_10x10
+SMT capacitor, aluminium electrolytic, 10x10
+
+0
+2
+2
+capacitors
+c_elec_10x10.5
+SMT capacitor, aluminium electrolytic, 10x10.5
+
+0
+2
+2
