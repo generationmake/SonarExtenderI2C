@@ -94,4 +94,4 @@ If all sensors are triggered, the interrupt pin wil rise and You can evaluate th
 
 #### Pausing the automatic mode
 
-To pause the automatic mode, e. g. to trigger a sensor manually, simply set the DECODE Pins to binary 5.
+To pause the automatic mode, simply set the DECODE Pins to binary 5. In opposite to binary 4, it won't reset and continue with the next sensor.
