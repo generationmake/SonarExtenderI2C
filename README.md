@@ -82,3 +82,9 @@ The sensorboard has a 8-bit counter for every sensor, that is started and stoppe
 As the counters are running at a 10kHz frequency and the ultrasonic signal needs 29.4us to travel one centimeter, You can calculate the distance to an object in cm by the following formular: ```distance = 100*countervalue/2/29.4```. The maximum distance is 425cm with an accuracy of 4.25cm.
 
 ### Automatic mode
+
+#### Starting and stopping the automatic mode
+
+#### Evaluating the automatic mode results
+
+#### Pausing the automatic mode for retriggering sensors
