@@ -58,6 +58,6 @@ The sensorboard has a 8-bit counter for every sensor, that is started and stoppe
 | Sensor 2 | L | H | L |
 | Sensor 3 | H | H | L |
 
-As the counters are running at a 10kHz frequency and the ultrasonic signal needs 29.4us to travel one centimeter, You can calculate the distance to an object in cm by the following formular: ```distance = (countervalue/2)/29.4```.
+As the counters are running at a 10kHz frequency and the ultrasonic signal needs 29.4us to travel one centimeter, You can calculate the distance to an object in cm by the following formular: ```distance = 100*countervalue/2/29.4```.
 
 ### Automatic mode
