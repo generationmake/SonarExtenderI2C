@@ -27,7 +27,7 @@ Connect up to four Ultrasonic sensor HC-SR04 via I2C to an Arduino or Raspberry 
 
 ## How to use
 
-The sensorboard is based on the 16-bit I2C Expander TCA9535 with the slave address 0x20. There are two operating modes for the device. In the man ual mode You can evaluate every sensor on Your own, in the automatic mode, all four sensors are evaluated sequentially and an interrupt is rising when all four sensors are triggered once.
+The sensorboard is based on the 16-bit I2C Expander TCA9535 with the slave address 0x20. There are two operating modes for the device. In the manual mode You can evaluate every sensor on Your own, in the automatic mode, all four sensors are evaluated sequentially and an interrupt is rising when all four sensors are triggered once.
 
 ### TCA9535 pinout
 
@@ -85,6 +85,13 @@ As the counters are running at a 10kHz frequency and the ultrasonic signal needs
 
 #### Starting and stopping the automatic mode
 
+To start the automatic mode, the DECODE Pins need to be set to binary 4, in any other configuration it will not run.
+Then all sensors will be triggered one after another.
+
 #### Evaluating the automatic mode results
 
-#### Pausing the automatic mode for retriggering sensors
+If all sensors are triggered, the interrupt pin wil rise and You can evaluate the results like in section 2.) of the manual mode.
+
+#### Pausing the automatic mode
+
+To pause the automatic mode, e. g. to trigger a sensor manually, simply set the DECODE Pins to binary 5.
