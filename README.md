@@ -85,6 +85,13 @@ As the counters are running at a 10kHz frequency and the ultrasonic signal needs
 
 #### Starting and stopping the automatic mode
 
+To start the automatic mode, the DECODE Pins need to be set to binary 4, in any other configuration it will not run.
+Then all sensors will be triggered one after another.
+
 #### Evaluating the automatic mode results
 
+If all sensors are triggered, the interrupt pin wil rise and You can evaluate the results like in section 2.) of the manual mode.
+
 #### Pausing the automatic mode
+
+To pause the automatic mode, e. g. to trigger a sensor manually, simply set the DECODE Pins to binary 5.
