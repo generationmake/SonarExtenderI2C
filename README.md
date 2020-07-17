@@ -66,7 +66,7 @@ In manual mode You can trigger a sensor by setting TRIGGER0-TRIGGER3 high accord
 
 #### 2. Wait for measurements to finish
 
-If all measurements are finished STATUS ECHO will go high. Here it is important to wait a minimum of 100us after triggering the sensor.
+If all measurements are finished STATUS ECHO will go high. Here it is important to wait a minimum of 100ms after triggering the sensor.
 
 #### 3. Evaluate the measurement result
 
