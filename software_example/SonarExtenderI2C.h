@@ -26,8 +26,6 @@ class SonarExtenderI2C
   void stopAutoread();
 
   void autoreadCallback();
-
-  void (*localPointerToCallback)(const int);
   
   private:
 
