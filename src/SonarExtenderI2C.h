@@ -37,7 +37,7 @@ class SonarExtenderI2C
 
   void trigger(uint8_t sensorNumber);
   void waitForEcho(uint8_t sensorNumber);
-  uint8_t decode(uint8_t sensorNumber);
+  void decode(uint8_t sensorNumber);
 };
 
 #endif

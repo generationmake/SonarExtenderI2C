@@ -128,7 +128,7 @@ void SonarExtenderI2C::autoreadCallback()
     }
   }
   
-  uint8_t SonarExtenderI2C::decode(uint8_t sensorNumber)
+  void SonarExtenderI2C::decode(uint8_t sensorNumber)
   {
     tca.write(TCA9535_REGISTER_OUTPUT0, sensorNumber);
 
