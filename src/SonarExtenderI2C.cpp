@@ -94,6 +94,7 @@ void SonarExtenderI2C::autoreadCallback()
      decode(i);
    }
    stopAutoread();
+   pauseAutoread();
    startAutoread();
 }
 
