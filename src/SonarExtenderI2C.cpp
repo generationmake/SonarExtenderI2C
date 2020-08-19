@@ -87,11 +87,13 @@
   }
 
 void SonarExtenderI2C::autoreadCallback()
-{
+{  
+   stopAutoread();
    for(int i = 0; i <= 3; i++)
    {
      decode(i);
    }
+   stopAutoread();
    startAutoread();
 }
 
