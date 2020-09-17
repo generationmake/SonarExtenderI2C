@@ -1160,4 +1160,133 @@ Wire Wire Line
 NoConn ~ 4200 6000
 NoConn ~ 3600 6000
 NoConn ~ 3600 6100
+$Comp
+L power-supply:+3V3 #PWR?
+U 1 1 5F81F230
+P 5200 5650
+AR Path="/5F81F230" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDA6D0/5F81F230" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5200 5500 50  0001 C CNN
+F 1 "+3V3" H 5215 5823 50  0000 C CNN
+F 2 "" H 5200 5650 50  0000 C CNN
+F 3 "" H 5200 5650 50  0000 C CNN
+	1    5200 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:C_0603 C?
+U 1 1 5F81F236
+P 5200 5850
+AR Path="/5F81F236" Ref="C?"  Part="1" 
+AR Path="/5EDDA6D0/5F81F236" Ref="C?"  Part="1" 
+F 0 "C?" H 5292 5896 50  0000 L CNN
+F 1 "100nF" H 5292 5805 50  0000 L CNN
+F 2 "capacitors:C_0603" H 5200 5700 50  0001 C CNN
+F 3 "" H 5200 5850 50  0000 C CNN
+	1    5200 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR?
+U 1 1 5F81F23C
+P 5200 6000
+AR Path="/5F81F23C" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDA6D0/5F81F23C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5200 5750 50  0001 C CNN
+F 1 "GND" H 5205 5827 50  0000 C CNN
+F 2 "" H 5200 6000 50  0000 C CNN
+F 3 "" H 5200 6000 50  0000 C CNN
+	1    5200 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 5950 5200 6000
+Wire Wire Line
+	5200 5650 5200 5750
+$Comp
+L power-supply:+3V3 #PWR?
+U 1 1 5F827E0C
+P 8000 3500
+AR Path="/5F827E0C" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDA6D0/5F827E0C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8000 3350 50  0001 C CNN
+F 1 "+3V3" H 8015 3673 50  0000 C CNN
+F 2 "" H 8000 3500 50  0000 C CNN
+F 3 "" H 8000 3500 50  0000 C CNN
+	1    8000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:C_0603 C?
+U 1 1 5F827E12
+P 8000 3700
+AR Path="/5F827E12" Ref="C?"  Part="1" 
+AR Path="/5EDDA6D0/5F827E12" Ref="C?"  Part="1" 
+F 0 "C?" H 8092 3746 50  0000 L CNN
+F 1 "100nF" H 8092 3655 50  0000 L CNN
+F 2 "capacitors:C_0603" H 8000 3550 50  0001 C CNN
+F 3 "" H 8000 3700 50  0000 C CNN
+	1    8000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR?
+U 1 1 5F827E18
+P 8000 3850
+AR Path="/5F827E18" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDA6D0/5F827E18" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8000 3600 50  0001 C CNN
+F 1 "GND" H 8005 3677 50  0000 C CNN
+F 2 "" H 8000 3850 50  0000 C CNN
+F 3 "" H 8000 3850 50  0000 C CNN
+	1    8000 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3800 8000 3850
+Wire Wire Line
+	8000 3500 8000 3600
+$Comp
+L power-supply:+3V3 #PWR?
+U 1 1 5F830BC5
+P 2500 3650
+AR Path="/5F830BC5" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDA6D0/5F830BC5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2500 3500 50  0001 C CNN
+F 1 "+3V3" H 2515 3823 50  0000 C CNN
+F 2 "" H 2500 3650 50  0000 C CNN
+F 3 "" H 2500 3650 50  0000 C CNN
+	1    2500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:C_0603 C?
+U 1 1 5F830BCB
+P 2500 3850
+AR Path="/5F830BCB" Ref="C?"  Part="1" 
+AR Path="/5EDDA6D0/5F830BCB" Ref="C?"  Part="1" 
+F 0 "C?" H 2592 3896 50  0000 L CNN
+F 1 "100nF" H 2592 3805 50  0000 L CNN
+F 2 "capacitors:C_0603" H 2500 3700 50  0001 C CNN
+F 3 "" H 2500 3850 50  0000 C CNN
+	1    2500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR?
+U 1 1 5F830BD1
+P 2500 4000
+AR Path="/5F830BD1" Ref="#PWR?"  Part="1" 
+AR Path="/5EDDA6D0/5F830BD1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2500 3750 50  0001 C CNN
+F 1 "GND" H 2505 3827 50  0000 C CNN
+F 2 "" H 2500 4000 50  0000 C CNN
+F 3 "" H 2500 4000 50  0000 C CNN
+	1    2500 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3950 2500 4000
+Wire Wire Line
+	2500 3650 2500 3750
 $EndSCHEMATC
