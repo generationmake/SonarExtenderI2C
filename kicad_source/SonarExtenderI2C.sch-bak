@@ -1403,8 +1403,6 @@ Wire Wire Line
 	1900 7400 2250 7400
 Wire Wire Line
 	2950 7100 3700 7100
-Text Label 3250 7100 0    50   ~ 0
-AUTO
 Text GLabel 3700 6700 2    50   Output ~ 0
 ENABLE0
 Text GLabel 3700 6800 2    50   Output ~ 0
@@ -1413,8 +1411,6 @@ Text GLabel 3700 6900 2    50   Output ~ 0
 ENABLE2
 Text GLabel 3700 7000 2    50   Output ~ 0
 ENABLE3
-Text GLabel 3700 7100 2    50   Output ~ 0
-AUTO
 $Sheet
 S 5300 7250 1250 400 
 U 5EDDA6D0
@@ -1537,10 +1533,8 @@ Wire Wire Line
 	1000 3400 2100 3400
 Wire Wire Line
 	1800 3200 1000 3200
-Text Label 1400 3200 0    50   ~ 0
-I2C_INT
 Text GLabel 1800 3200 2    50   Input ~ 0
-I2C_INT
+AUTO_INT
 $Comp
 L mechanical-connectors:CONN_01X04 CN2
 U 1 1 5EED8302
@@ -2191,5 +2185,7 @@ $EndComp
 Wire Wire Line
 	2950 7200 3700 7200
 Text GLabel 3700 7200 2    50   Output ~ 0
-PAUSE
+AUTO_RESET
+Text GLabel 3700 7100 2    50   Output ~ 0
+AUTO
 $EndSCHEMATC
