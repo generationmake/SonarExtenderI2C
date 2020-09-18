@@ -96,6 +96,10 @@ If all sensors are triggered, the interrupt pin wil rise and You can evaluate th
 
 To pause the automatic mode, simply set the DECODE Pins to binary 5. In opposite to binary 4, it won't reset and continue with the next sensor.
 
+## Arduino lib
+
+https://github.com/wuehr1999/SonarExtenderI2C-Library
+
 ## Aisler order link
 
 https://aisler.net/jonaswuehr/sandbox/sonar-extender-i2-c
