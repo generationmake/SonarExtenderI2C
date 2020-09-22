@@ -2003,7 +2003,7 @@ F 3 "" H 700 7100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SonarExtenderI2C-rescue:74xx590-IC_logic U12
+L SonarExtenderI2C-rescue:74xx590-IC_logic-SonarExtenderI2C-rescue-SonarExtenderI2C-rescue U12
 U 1 1 5EE73281
 P 8200 6150
 F 0 "U12" H 8200 6875 50  0000 C CNN
@@ -2014,7 +2014,7 @@ F 3 "" H 8200 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SonarExtenderI2C-rescue:74xx590-IC_logic U11
+L SonarExtenderI2C-rescue:74xx590-IC_logic-SonarExtenderI2C-rescue-SonarExtenderI2C-rescue U11
 U 1 1 5EE73231
 P 8200 4650
 F 0 "U11" H 8200 5375 50  0000 C CNN
@@ -2025,7 +2025,7 @@ F 3 "" H 8200 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SonarExtenderI2C-rescue:74xx590-IC_logic U10
+L SonarExtenderI2C-rescue:74xx590-IC_logic-SonarExtenderI2C-rescue-SonarExtenderI2C-rescue U10
 U 1 1 5EE4DE46
 P 8200 3000
 F 0 "U10" H 8200 3725 50  0000 C CNN
@@ -2036,7 +2036,7 @@ F 3 "" H 8200 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SonarExtenderI2C-rescue:74xx590-IC_logic U9
+L SonarExtenderI2C-rescue:74xx590-IC_logic-SonarExtenderI2C-rescue-SonarExtenderI2C-rescue U9
 U 1 1 5ED3FBEA
 P 8200 1500
 F 0 "U9" H 8200 2225 50  0000 C CNN
@@ -2069,7 +2069,7 @@ F 3 "" H 5700 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SonarExtenderI2C-rescue:74xx04-IC_logic U7
+L SonarExtenderI2C-rescue:74xx04-IC_logic-SonarExtenderI2C-rescue U7
 U 1 1 5EEE08C7
 P 5050 6850
 F 0 "U7" H 5050 7425 50  0000 C CNN
@@ -2080,7 +2080,7 @@ F 3 "" H 5050 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SonarExtenderI2C-rescue:74xx138-IC_logic U4
+L SonarExtenderI2C-rescue:74xx138-IC_logic-SonarExtenderI2C-rescue-SonarExtenderI2C-rescue U4
 U 1 1 5F07A383
 P 2600 7050
 F 0 "U4" H 2600 7725 50  0000 C CNN
@@ -2091,7 +2091,7 @@ F 3 "" H 2600 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SonarExtenderI2C-rescue:TCA9535-IC_interface_i2c U2
+L SonarExtenderI2C-rescue:TCA9535-IC_interface_i2c-SonarExtenderI2C-rescue U2
 U 1 1 5F072FE1
 P 2600 4300
 F 0 "U2" H 2600 5447 60  0000 C CNN
@@ -2102,7 +2102,7 @@ F 3 "" H 3200 4050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SonarExtenderI2C-rescue:74xx175-IC_logic U6
+L SonarExtenderI2C-rescue:74xx175-IC_logic-SonarExtenderI2C-rescue U6
 U 1 1 5ED68086
 P 4650 4250
 F 0 "U6" H 4650 4925 50  0000 C CNN
@@ -2113,7 +2113,7 @@ F 3 "" H 4650 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SonarExtenderI2C-rescue:NE555-IC_logic U1
+L SonarExtenderI2C-rescue:NE555-IC_logic-SonarExtenderI2C-rescue U1
 U 1 1 5ED3F84C
 P 1950 1400
 F 0 "U1" H 1950 1925 50  0000 C CNN
@@ -2124,7 +2124,7 @@ F 3 "" H 1950 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SonarExtenderI2C-rescue:74xx4002-IC_logic U13
+L SonarExtenderI2C-rescue:74xx4002-IC_logic-SonarExtenderI2C-rescue U13
 U 1 1 5EF9FE5E
 P 10000 5650
 F 0 "U13" H 10000 6475 50  0000 C CNN
